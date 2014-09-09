@@ -4,10 +4,15 @@
 
 Justin Meyer, author JavaScriptMVC
 
-## Definitions
+## Definition
 > Scalability is the ability of a system, network, or process to handle a growing amount of work in a capable manner or its ability to be enlarged to accommodate that growth
 
 Source: [Wikipedia](http://en.wikipedia.org/wiki/Scalability)
+
+## Introduction
+We will focus on scaling in the browser and skip backend topics such as load balancing, server hardware and network speed.
+
+Scaling in the browser includes writing frontend in such a way to allow a website to grow.
 
 ## Scalable JavaScript Application Architecture
 [Slides by Nicolas C. Zakas](http://www.slideshare.net/nzakas/scalable-javascript-application-architecture)
