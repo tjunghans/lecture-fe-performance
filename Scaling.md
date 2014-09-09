@@ -12,7 +12,7 @@ Source: [Wikipedia](http://en.wikipedia.org/wiki/Scalability)
 ## Scalable JavaScript Application Architecture
 [Slides by Nicolas C. Zakas](http://www.slideshare.net/nzakas/scalable-javascript-application-architecture)
 
-### Key points
+### Presentation Key Points
 - MVC
 - Website is broken down into modules
 - A web application module is an independent unit of functionality that is part of the total structure of a web application
@@ -28,7 +28,20 @@ Source: [Wikipedia](http://en.wikipedia.org/wiki/Scalability)
   + Anything else needed is requested through the sandbox
   + Don't create global objects
   + Don't talk to strangers
+- The Sandbox
+  + The sandbox ensures a consistent interface
+  + Modules only know the sandbox
+  + Jobs: Consistency, Security, Communication
+- The Application Core
+  + Manages modules
+  + It's the application controller
+  + Jobs
+    * Manage module lifecycle
+    * Enable inter-module communication
+    * Error handling
+    * To be extensible
 
+Source: http://www.slideshare.net/nzakas/scalable-javascript-application-architecture
 
 ## CSS
 Use a preprocessor such as SCSS (SASS), LESS or Stylus.
