@@ -2,7 +2,8 @@
 
 ## Agenda
 
-- [Performance](Performance.md)
+- [Client Side Performance Optimization
+](Performance.md)
 - [Scaling](Scaling.md)
 - [Deployment](Deployment.md)
 
